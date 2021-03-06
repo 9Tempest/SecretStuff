@@ -116,7 +116,7 @@ class A10Tests extends FunSuite {
     val endState = A4.loadAndRun(machineCode,
       register1 = Word(encodeSigned(3)),
       register2 = Word(encodeSigned(6)),debug = true)
-    println(decodeSigned(endState.reg(3)))
+    println(decodeSigned(endState.reg(3)))w
   }
 
 
